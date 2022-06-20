@@ -473,8 +473,23 @@ body .full-width {
         margin: 0 auto;
     }
 
+    .h2-presentation {
+        margin-top: 0;
+        font-size: 4rem;
+    }
+
+    h2 {
+        margin-top: 3rem;
+        font-size: 4rem;
+        text-align: center;
+    }
+
     .intro-home-content {
         padding-top: 3em;
+    }
+
+    .title-projects {
+        margin-top: 0;
     }
 
     .grid {
@@ -492,8 +507,7 @@ body .full-width {
     }
 
     .img-about-me {
-        width: 15em;
-        margin: 0 auto;
+        display: none;
     }
 
     .social {
@@ -502,7 +516,7 @@ body .full-width {
     }
 
     .social-title {
-        font-size: 4rem;
+        font-size: 3rem;
         margin: 4rem 4rem 1rem 4rem;
     }
 

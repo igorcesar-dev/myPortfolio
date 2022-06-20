@@ -470,12 +470,16 @@ body .full-width {
 @media (max-width: 800px) {
     .intro-content, .grid, .about-content, .intro-home-content {
         grid-template-columns: 1fr;
-        margin: 0 auto;
+        margin: 0px auto;
     }
 
     .h2-presentation {
         margin-top: 0;
         font-size: 4rem;
+    }
+
+    .h2-contact {
+        margin-top: 0;
     }
 
     h2 {

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="shortcut icon" href="assets/img/portfolios.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/mobile.css">
+</head>
+
+<body>
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+            <h1 onclick="getElementById('close-menu').checked =  false;">
+                <a href="#home"><img class="logo-navbar" src="assets/img/logo-portfólio.png" alt="logo-portfólio"></a>
+            </h1>
+
+            <nav class="navbar">
+                <ul onclick="getElementById('close-menu').checked =  false;">
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#about">Sobre mim</a></li>
+                    <li><a href="#project">Projetos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+    <!-- PRIMEIRA SEÇÃO -->
+
+    <div class="menu-spacing"></div>
+
+    <section id="home" class="intro main-bg section">
+        <div class="main-content intro-content ">
+            <div class="intro-home-content">
+                <h2 class="h2-presentation">Hello, i'm Igor César</h2>
+                <p>Olá, eu me chamo Igor César e este é meu portfólio. Neste portfólio irei falar um pouco sobre mim,
+                    apresentar meus conhecimentos em programação, mostrar meus projetos e disponibilizar meu contato
+                    para quem quiser conversar comigo. Seja bem-vindo(a)!</p>
+            </div>
+            <div class="image-profile"></div>
+        </div>
+    </section>
+
+    <!-- SEGUNDA SEÇÃO -->
+
+    <div class="menu-spacing"></div>
+
+    <section id="about" class="white-bg section">
+        <div class="main-content about-content">
+            <div class="about-me-content">
+                <img class="img-about-me" src="assets/img/me.jpg" alt="myphoto">
+            </div>
+            <div class="about-me-content">
+                <h2 class="h2-about-me">Sobre mim</h2>
+                <p> Sou apaixonado por tecnologia desde criança e há 3 anos
+                    conheci a programação, logo, em 2020 decidi entrar na faculdade de tecnologia escolhendo o curso de
+                    Sistemas de Informação no Instituto Federal da Bahia, tenho conhecimentos em tecnologias como Html,
+                    Css, Python, JavaScript e MySQL, utilizo como sistemas operacionais o Linux e o Windows. Atualmente
+                    estou focado em Desenvolvimento Web, mas um dos meus objetivos é me tornar um Desenvolvedor
+                    Full-stack, trabalhando com tecnologias tanto do Front-end quanto do Back-end. Logo abaixo estão as
+                    minhas certificações.
+                </p>
+                <div class="certificate-group">
+                    <a href="https://drive.google.com/drive/folders/1HBNiT_4TxKgUdizB_kR0CYhtQuK2MYff?usp=sharing"
+                        target="_blank" class="button-certificate"><button>Certificados</button>
+                    </a>
+                </div>
+                <p>
+                    Arrasta pra cima aí para ver meus projetos! &#x1F60E&#x1F919
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- TERCEIRA SEÇÃO -->
+
+    <div class="menu-spacing"></div>
+
+    <section id="project" class="github-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading title-projects">Projetos</h2>
+            <div class="grid">
+                <div class="grid-item">
+                    <h4 class="grid-title">Carrossel de Revisões</h4>
+                    <p class="grid-description">Este projeto foi criado com JavaScript, é um carrossel de classificação
+                        com um botão que gera classificações aleatórias. Este é um bom recurso para ter em um site de
+                        comércio eletrônicopara exibir avaliações de clientes.</p>
+                    <div class="grid-button">
+                        <a class="button" target="_blank"
+                            href="https://github.com/igorcesar-dev/reviewCarousel"><span>Acessar</span></a>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <h4 class="grid-title">Supermercado</h4>
+                    <p class="grid-description">Este projeto foi solicitado por um de meus professores na faculdade, de
+                        início ele foi criado na linguagem Java, porém eu recriei ele em JavaScript. É um sistema de
+                        compras de produtos.</p>
+                    <div class="grid-button">
+                        <a class="button" target="_blank"
+                            href="https://github.com/igorcesar-dev/supermarket"><span>Acessar</span></a>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <h4 class="grid-title">Helicopter Game</h4>
+                    <p class="grid-description">Este projeto foi elaborado na bootcamp Take Blip Web Developer,
+                        pertecente à platoforma da Digital Innovation One.</p>
+                    <div class="grid-button">
+                        <a class="button" target="_blank"
+                            href="https://github.com/igorcesar-dev/helicopter-game"><span>Acessar</span></a>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <h4 class="grid-title">Menu de restaurante</h4>
+                    <p class="grid-description">Este projeto é uma página de menu de restaurante, que filtra os
+                        diferentes menus de comida disponíveis. Foi possível atribuir aprendizados sobre funções de
+                        ordem superior, como map, reduce e filter.</p>
+                    <div class="grid-button">
+                        <a class="button" target="_blank"
+                            href="https://github.com/igorcesar-dev/restaurantMenu"><span>Acessar</span></a>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <h4 class="grid-title">Urna Eletrônica</h4>
+                    <p class="grid-description">Criado com HTML, CSS e JavaScript, este projeto foi elaborado se trata
+                        de uma urna eletrônica onde o
+                        usuário pode realizar a sua votação de acordo com a escolha para eleição.</p>
+
+                    <div class="grid-button">
+                        <a class="button" target="_blank"
+                            href="https://github.com/igorcesar-dev/urnaEletronica"><span>Acessar</span></a>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- SECTION CONTACT -->
+
+    <section id="contact" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-home-content">
+                <h2 class="h2-contact">CONTATO <a href="https://t.me/Igorcesars"><img class="telegram-logo"
+                            src="assets/img/telegram.png" alt=""></a></h2>
+                <p class="contact-me">Quer conversar comigo? Me chame no Telegram ou em qualquer uma das minhas redes!
+                </p>
+                <div class="form-group">
+                    <a href="https://t.me/Igorcesars" target="_blank" class="button-contact"><button>Enviar
+                            mensagem</button>
+                    </a>
+                </div>
+            </div>
+            <div class="social">
+                <h3 class="social-title">Redes sociais</h3>
+                <div class="logo-social">
+                    <a href="https://www.linkedin.com/in/igorcesar-dev/" target="_blank"><img
+                            src="assets/img/linkedin.png" alt="linkedin-logo"></a>
+                    <a href="https://github.com/igorcesar-dev" target="_blank"><img src="assets/img/github (1).png"
+                            alt="github-logo"></a>
+                    <a href="https://www.instagram.com/igorcesar_s/" target="_blank"><img src="assets/img/instagram.png"
+                            alt="instagram-logo"></a>
+                    <address>
+                        <a href="mailto:igor_cesar1@outlook.com" target="_blank"><img src="assets/img/email.png"
+                                alt="mail-logo"></a>
+                    </address>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="footer white-bg">
+        <p><a rel="nofollow" target="_blank" href="">Feito com <span class="heart">❤</span> por Igor César</a></p>
+    </footer>
+
+    <a class="back-to-top" href="#home">❱</a>
+</body>
+
+</html>

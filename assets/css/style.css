@@ -473,6 +473,10 @@ body .full-width {
         margin: 0px auto;
     }
 
+    .grid-one-content {
+        padding-top: 0;
+    }
+
     .h2-presentation {
         margin-top: 0;
         font-size: 4rem;
@@ -511,6 +515,7 @@ body .full-width {
     }
 
     .h2-about-me {
+        margin-top: 0;
         margin-bottom: 3rem;
     }
 

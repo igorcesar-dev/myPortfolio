@@ -505,8 +505,16 @@ body .full-width {
         justify-items: center;
     }
 
+    .grid-item {
+        height: auto;
+    }
+
     .grid-one-content {
         display: block;
+    }
+
+    .grid-description {
+        height: auto;
     }
 
     .image-profile {

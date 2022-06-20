@@ -468,13 +468,14 @@ body .full-width {
 
 
 @media (max-width: 800px) {
-    .intro-content, .grid, .about-content, .intro-home-content {
+    .intro-content, .grid, .about-content, .intro-home-content, .grid-one-content {
         grid-template-columns: 1fr;
         margin: 0px auto;
+        padding-top: 2rem;
     }
 
-    .grid-one-content {
-        padding-top: 0;
+    .teste {
+        padding-top: 0px;
     }
 
     .h2-presentation {

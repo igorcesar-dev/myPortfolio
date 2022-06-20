@@ -485,14 +485,14 @@ body .full-width {
     h2 {
         margin-top: 3rem;
         font-size: 4rem;
-        text-align: center;
+        text-align: left;
     }
 
     .intro-home-content {
         padding-top: 3em;
     }
 
-    .title-projects {
+    .title-projects{
         margin-top: 0;
     }
 
@@ -573,10 +573,6 @@ body .full-width {
 
     .menu-spacing {
         display: none;
-    }
-
-    .title-projects {
-        text-align: center;
     }
 
     .contact-me {

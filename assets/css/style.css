@@ -510,6 +510,10 @@ body .full-width {
         height: 15em;
     }
 
+    .h2-about-me {
+        margin-bottom: 3rem;
+    }
+
     .img-about-me {
         display: none;
     }

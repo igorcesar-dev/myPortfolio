@@ -505,18 +505,19 @@ body .full-width {
         justify-items: center;
     }
 
-    .grid-item .grid-title {
+    .grid-title {
         color: rgb(0, 0, 0);
         width: auto;
         height: auto;
         display: block;
-        margin: 1.5rem;
+        margin: 1.5rem 1.5rem 0rem 1.5rem;
         padding: 0rem 1.5rem;
         font-size: 2.6rem;
         text-align: left;
     }
 
     .grid-item {
+        width: 37rem;
         height: auto;
     }
 

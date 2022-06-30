@@ -505,6 +505,16 @@ body .full-width {
         justify-items: center;
     }
 
+    .grid-title {
+        color: rgb(0, 0, 0);
+        width: 100%;
+        height: 55px;
+        display: flex;
+        justify-content: center;
+        font-size: 2.5rem;
+        padding: 1rem;
+    }
+
     .grid-item {
         height: auto;
     }
@@ -540,7 +550,7 @@ body .full-width {
     }
 
     .social-title {
-        font-size: 3rem;
+        font-size: 2.6rem;
         margin: 0.5rem 4rem 0rem 4rem;
     }
 

@@ -512,12 +512,12 @@ body .full-width {
         display: block;
         margin: 1.5rem 1.5rem 0rem 1.5rem;
         padding: 0rem 1.5rem;
-        font-size: 2.6rem;
+        font-size: 2.3rem;
         text-align: left;
     }
 
     .grid-item {
-        width: 37rem;
+        width: 34rem;
         height: auto;
     }
 

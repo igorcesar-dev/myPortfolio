@@ -226,6 +226,7 @@ body .full-width {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
+    padding-top: 10rem;
 }
 
 .img-about-me {
@@ -307,18 +308,14 @@ body .full-width {
 
 .grid-title {
     color: black;
-    width: 300px;
-    height: 55px;
-    display: block;
-    margin: 2rem auto 2rem auto;
-    font-size: 3rem;
-    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
 }
 
 .grid-description {
     color: #000;
     width: 90%;
-    height: 23rem;
+    height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -370,6 +367,16 @@ body .full-width {
     opacity: 1;
     right: 0;
 }
+
+.accordion-item {
+    margin: 0.5rem;
+}
+
+ #projetos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+} 
 
 /* QUARTA SEÇÃO */
 
@@ -537,7 +544,7 @@ body .full-width {
 
     .h2-about-me {
         margin-top: 0;
-        margin-bottom: 3rem;
+        margin-bottom: 0.5rem;
     }
 
     .img-about-me {

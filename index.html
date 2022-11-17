@@ -12,8 +12,12 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
         rel="stylesheet">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/mobile.css">
+
 </head>
 
 <body>
@@ -22,7 +26,8 @@
     <aside class="menu white-bg">
         <div class="main-content menu-content">
             <h1 onclick="getElementById('close-menu').checked =  false;">
-                <a href="#home"><img class="logo-navbar" src="assets/img/logo-portfólio.png" alt="logo-portfólio"></a>
+                <a href="#home"><img class="logo-navbar" src="assets/img/Guinho_1-semfundo.png"
+                        alt="logo-portfólio"></a>
             </h1>
 
             <nav class="navbar">
@@ -54,8 +59,6 @@
 
     <!-- SEGUNDA SEÇÃO -->
 
-    <div class="menu-spacing"></div>
-
     <section id="about" class="white-bg section">
         <div class="main-content about-content">
             <div class="about-me-content">
@@ -63,17 +66,11 @@
             </div>
             <div class="about-me-content">
                 <h2 class="h2-about-me">Sobre mim</h2>
-                <p> Sou apaixonado por tecnologia desde criança e há 3 anos
-                    conheci a programação, logo, em 2020 decidi entrar na faculdade de tecnologia escolhendo o curso de
-                    Sistemas de Informação no Instituto Federal da Bahia, tenho conhecimentos em tecnologias como Html,
-                    Css, Python, JavaScript e MySQL, utilizo como sistemas operacionais o Linux e o Windows. Atualmente
-                    estou focado em Desenvolvimento Web, mas um dos meus objetivos é me tornar um Desenvolvedor
-                    Full-stack, trabalhando com tecnologias tanto do Front-end quanto do Back-end. Logo abaixo estão as
-                    minhas certificações.
+                <p> Apaixonado por tecnologia e inovação, o meu objetivo é resolver problemas e proporcionar mudanças e melhoras ao meu redor. Sou sempre direcionado a atingir o melhor desempenho, meu ou da minha equipe, fortificando as minhas relações. Possuo projetos pessoais no GitHub, mesmo sem a vivência com uma equipe de desenvolvimento, a minha experiência em apresentações e palestras fortifica meu conhecimento e o constante desejo de aprendizado. Estou disponível para quem estiver interessado em compartilhar conhecimentos e experiências. Sinta-se à vontade para me contatar.
                 </p>
                 <div class="certificate-group">
                     <a href="https://drive.google.com/drive/folders/1HBNiT_4TxKgUdizB_kR0CYhtQuK2MYff?usp=sharing"
-                        target="_blank" class="button-certificate"><button>Certificados</button>
+                        target="_blank" class="button-certificate"><button>Meus certificados</button>
                     </a>
                 </div>
                 <p>
@@ -90,58 +87,11 @@
     <section id="project" class="github-bg section">
         <div class="main-content grid-one-content">
             <h2 class="grid-main-heading title-projects">Projetos</h2>
-            <div class="grid">
-                <div class="grid-item">
-                    <h4 class="grid-title">Carrossel de Revisões</h4>
-                    <p class="grid-description">Este projeto foi criado com JavaScript, é um carrossel de classificação
-                        com um botão que gera classificações aleatórias. Este é um bom recurso para ter em um site de
-                        comércio eletrônico para exibir avaliações de clientes.</p>
-                    <div class="grid-button">
-                        <a class="button" target="_blank"
-                            href="https://github.com/igorcesar-dev/reviewCarousel"><span>Acessar</span></a>
-                    </div>
-                </div>
-                <div class="grid-item">
-                    <h4 class="grid-title">Supermercado</h4>
-                    <p class="grid-description">Este projeto foi solicitado por um de meus professores na faculdade, no
-                        início, ele foi criado na linguagem Java, porém eu recriei ele em JavaScript. É um sistema de
-                        compras de produtos.</p>
-                    <div class="grid-button">
-                        <a class="button" target="_blank"
-                            href="https://github.com/igorcesar-dev/supermarket"><span>Acessar</span></a>
-                    </div>
-                </div>
-                <div class="grid-item">
-                    <h4 class="grid-title">Helicopter Game</h4>
-                    <p class="grid-description">Este projeto foi elaborado na bootcamp Take Blip Web Developer,
-                        pertecente à platoforma da Digital Innovation One.</p>
-                    <div class="grid-button">
-                        <a class="button" target="_blank"
-                            href="https://github.com/igorcesar-dev/helicopter-game"><span>Acessar</span></a>
-                    </div>
-                </div>
-                <div class="grid-item">
-                    <h4 class="grid-title">Menu de restaurante</h4>
-                    <p class="grid-description">Este projeto é uma página de menu de restaurante, que filtra os
-                        diferentes menus de comida disponíveis. Foi possível atribuir aprendizados sobre funções de
-                        ordem superior, como map, reduce e filter.</p>
-                    <div class="grid-button">
-                        <a class="button" target="_blank"
-                            href="https://github.com/igorcesar-dev/restaurantMenu"><span>Acessar</span></a>
-                    </div>
-                </div>
-                <div class="grid-item">
-                    <h4 class="grid-title">Urna Eletrônica</h4>
-                    <p class="grid-description">Criado com HTML, CSS e JavaScript, este projeto se trata
-                        de uma urna eletrônica onde o
-                        usuário pode realizar a sua votação de acordo com a escolha para eleição.</p>
+            <div class="accordion accordion-flush " id="accordionFlushExample">
+                    <div id="projetos"></div>
 
-                    <div class="grid-button">
-                        <a class="button" target="_blank"
-                            href="https://github.com/igorcesar-dev/urnaEletronica"><span>Acessar</span></a>
-                    </div>
                 </div>
-            </div>
+                
     </section>
 
     <!-- SECTION CONTACT -->
@@ -182,5 +132,11 @@
 
     <a class="back-to-top" href="#home">❱</a>
 </body>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+<script src="assets/js/projetos.js"></script>
+<script src="assets/js/script.js"></script>
 
 </html>

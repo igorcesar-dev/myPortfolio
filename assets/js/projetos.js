@@ -7,7 +7,7 @@ const itens = [
     },
     {
         nome: "Supermercado",
-        descricao: "Este projeto foi solicitado por um de meus professores na faculdade, no início, ele foi criado na linguagem Java, porém eu recriei ele em JavaScript.É um sistema de compras de produtos.",
+        descricao: "Este projeto foi solicitado por um de meus professores na faculdade, no início, ele foi criado na linguagem Java, porém eu recriei ele em JavaScript. É um sistema de compras de produtos.",
         link: "https://github.com/igorcesar-dev/supermarket",
         id: "Two"
     },
@@ -37,7 +37,7 @@ const itens = [
     },
     {
         nome: "Jogo da Velha",
-        descricao: "Criado com HTML, CSS e JavaScript, este projeto se trata de uma urna eletrônica onde o usuário pode realizar a sua votação de acordo com a escolha para eleição.",
+        descricao: "Este projeto é um jogo da velha, foi criado com HTML, CSS e JavaScript. O projeto foi elaborado no curso Formação node.js na Udemy.",
         link: "https://github.com/igorcesar-dev/JogoDaVelha",
         id: "Seven"
     },

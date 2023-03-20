@@ -375,6 +375,7 @@ body .full-width {
  #projetos {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    position: sticky;
     
 } 
 

@@ -18,7 +18,7 @@ function iniciarProjetos() {
                 <p class="grid-description">`+ valor.descricao +`</p>
     
                 <a class="button" target="_blank"
-                    href="`+valor.link+`"><span>Acessar</span></a>
+                    href="`+valor.link+`"><span>Projeto</span></a>
             </div>
         </div>
     </div>

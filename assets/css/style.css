@@ -228,6 +228,12 @@ body .full-width {
     justify-content: center;
     padding-top: 10rem;
 }
+.about-me-content-img {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    padding-top: 10rem;
+}
 
 .img-about-me {
     width: 45rem;
@@ -327,6 +333,11 @@ body .full-width {
 
 .grid-button {
     margin-bottom: 20px;
+}
+
+.accordion-button {
+    display: flex;
+    height: 10em;
 }
 
 .button {
@@ -622,5 +633,16 @@ body .full-width {
     .contact-me {
         max-width: 85%;
     }
+
+    .about-me-content-img {
+        display: none;
+    }
+
+    #projetos {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        position: sticky;
+        
+    } 
 
 }
